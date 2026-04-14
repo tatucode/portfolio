@@ -1,0 +1,234 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "pt-br"
+title: "Pedro Victor"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+#services:
+  #googleAnalytics:
+    #id: G-MEASUREMENT_ID
+  #disqus:
+    #shortname: your-disqus-shortname
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Publicações do Blog
+      url: /blogs
+      weight: 1
+    - identifier: gallery
+      name: Galeria
+      title: Galeria de imagens
+      url: /gallery
+      weight: 2
+
+params:
+  title: "Pedro Victor"
+  description: "Portfólio de Pedro Victor — Cibersegurança e análise de vulnerabilidades"
+  favicon: "/fav.png"
+
+  useBootstrapCDN: false
+  mathjax: false
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  navbar:
+    align: ms-auto
+    brandName: "Pedro Victor"
+    disableSearch: false
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Olá, meu nome é"
+    title: "Pedro Victor"
+    subtitle: "Deixando sua defesa mais segura"
+    content: "Análise de vulnerabilidades e aplicação de práticas de segurança para proteção de sistemas."
+    image: /images/hero.svg
+    bottomImage:
+      enable: true
+    # roundImage: true
+    button:
+      enable: true
+      name: "Currículo"
+      url: "#"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://www.github.com/tatucode
+        - icon: fab fa-x-twitter
+          url: https://example.com
+      customIcons:
+        - icon: /fav.png
+          url: "https://example.com"
+
+  # Sobre
+  about:
+    enable: true
+    title: "Sobre mim"
+    image: "/images/me.png"
+    content: |-
+      Sou um estudante de Engenharia de Software com foco em Cibersegurança, voltado à análise de vulnerabilidades, pentest e proteção de sistemas.
+      Desenvolvo minha base de forma prática por meio de projetos próprios, plataformas de CTF e formações especializadas, buscando evolução constante e aplicação real dos conceitos de segurança.
+    skills:
+      enable: true
+      title: "Algumas tecnologias com as quais tenho trabalhado recentemente:"
+      items:
+        - "HTML"
+        - "CSS"
+        - "JavaScript"
+        - "React"
+        - "Node"
+        - "Express"
+
+  # Experiência
+  experience:
+    enable: true
+    # title: "Experiência"
+    items:
+      - company: "Facebook"
+        companyUrl: "https://example.com"
+        jobs:
+          - name: "Desenvolvedor de Software Sênior"
+            date: "Jan 2023 - presente"
+            content: "Trabalhando como desenvolvedor de software sênior."
+          - name: "Desenvolvedor de Software"
+            date: "Jan 2022 - Dez 2023"
+            content: "Trabalhei como desenvolvedor de software."
+
+  # Educação
+  education:
+    enable: true
+    # title: "Educação"
+    index: false
+    items:
+      - title: "Engenharia de Software"
+        school:
+          name: "Universidade exemplo"
+          url: "https://example.org"
+        date: "2021 - presente"
+        GPA: "8.0 de 10.0"
+        content: |-
+          Atividades Extracurriculares
+            - CTF (Capture The Flag)
+            - Projetos de segurança ofensiva e defensiva
+
+  # Conquistas
+  achievements:
+    enable: true
+    # title: "Conquistas"
+    items:
+      - title: CTF — exemplo
+        content: Resolvi todos os desafios com solução ótima.
+        url: https://example.com
+        image: /images/achievement.jpg
+
+  # Projetos
+  projects:
+    enable: true
+    # title: "Projetos"
+    items:
+      - name: Shield.py
+        content: Um script em Python para analisar vulnerabilidades em arquivos ou URLs usando a API do VirusTotal.
+        image: /images/projects/profile.png
+        featured:
+          name: Demo
+          link: https://github.com/tatucode
+        badges:
+          - "Python"
+          - "VirusTotal API"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/tatucode
+
+  # Contato
+  contact:
+    enable: true
+    # title: "Contato"
+    content: "Minha caixa de entrada está sempre aberta. Seja para uma pergunta ou apenas para dizer oi, farei o meu melhor para responder!"
+    btnName: "Enviar e-mail"
+    btnLink: mailto:exemplo@email.com
+    # formspree:
+    #   enable: true
+    #   formId: abcdefgh
+    #   emailCaption: "Digite seu e-mail"
+    #   messageCaption: "Digite sua mensagem"
+    #   messageRows: 5
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: "Posts Recentes"
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/tatucode
+      linkedin: https://linkedin.com
+      twitter: https://twitter.com
+      instagram: https://instagram.com
+
+  listPages:
+    disableFeaturedImage: false
+
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min de leitura"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  terms:
+    read: "Ler"
+    toc: "Índice"
+    copyright: "Todos os direitos reservados"
+    emailText: "Confira este site"
+
+  datesFormat:
+    article: "2 Jan 2006"
+    articleList: "2 Jan 2006"
+    articleRecent: "2 Jan 2006"
