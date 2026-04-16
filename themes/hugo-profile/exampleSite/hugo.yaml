@@ -56,7 +56,7 @@ languages:
           Actualmente estoy trabajando en un proyecto que se utilizará para ayudar a las personas a encontrar la mejor manera de moverse por la ciudad.
         skills:
           title: "Aquí hay algunas tecnologías con las que he estado trabajando recientemente:"
-      experience:
+      Experiências:
         items:
           - company: "Facebook"
             companyUrl: "https://example.com"
@@ -262,7 +262,7 @@ languages:
           Je travaille actuellement sur un projet qui sera utilisé pour aider les gens à trouver le meilleur moyen de se déplacer dans la ville.
         skills:
           title: "Voici quelques technologies avec lesquelles j'ai travaillé récemment:"
-      experience:
+      Experiências:
         items:
           - company: "Facebook"
             companyUrl: "https://example.com"
@@ -553,7 +553,7 @@ params:
     enableSeparator: false
     menus:
       disableAbout: false
-      disableExperience: false
+      disableExperiências: false
       disableEducation: false
       disableProjects: false
       disableAchievements: false
@@ -606,8 +606,8 @@ params:
         - "Node"
         - "Express"
 
-  # Experience
-  experience:
+  # Experiências
+  Experiências:
     enable: true
     # title: "Custom Name"
     items:

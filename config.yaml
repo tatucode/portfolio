@@ -55,7 +55,7 @@ languages:
           Desenvolvo minha base de forma prática por meio de projetos próprios, plataformas de CTF e formações especializadas, buscando evolução constante e aplicação real dos conceitos de segurança.
         skills:
           title: "Aquí hay algunas tecnologías con las que he estado trabajando recientemente:"
-      experience:
+      Experiências:
         items:
           - company: "Facebook"
             companyUrl: "https://example.com"
@@ -261,7 +261,7 @@ languages:
           Je travaille actuellement sur un projet qui sera utilisé pour aider les gens à trouver le meilleur moyen de se déplacer dans la ville.
         skills:
           title: "Voici quelques technologies avec lesquelles j'ai travaillé récemment:"
-      experience:
+      Experiências:
         items:
           - company: "Facebook"
             companyUrl: "https://example.com"
@@ -552,7 +552,7 @@ params:
     enableSeparator: false
     menus:
       disableAbout: false
-      disableExperience: false
+      disableExperiências: false
       disableEducation: false
       disableProjects: false
       disableAchievements: false
@@ -579,8 +579,10 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://www.github.com/tatucode
-        - icon: fab fa-x-twitter
-          url: https://example.com
+        - icon: fab fa-instagram
+          url: https://www.instagram.com/tatucode/
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/victortech01
       customIcons:
         - icon: /fav.png
           url: "https://example.com"
@@ -589,7 +591,7 @@ params:
   about:
     enable: true
     title: "Sobre mim"
-    image: "/images/me.png"
+    image: "/images/hero.svg"
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
 
@@ -605,8 +607,8 @@ params:
         - "Node"
         - "Express"
 
-  # Experience
-  experience:
+  # Experiências
+  Experiências:
     enable: true
     # title: "Custom Name"
     items:

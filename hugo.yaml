@@ -70,7 +70,7 @@ params:
     enableSeparator: false
     menus:
       disableAbout: false
-      disableExperience: false
+      disableExperiências: false
       disableEducation: false
       disableProjects: false
       disableAchievements: false
@@ -89,7 +89,7 @@ params:
     # roundImage: true
     button:
       enable: true
-      name: "Currículo"
+      name: "Resumo"
       url: "#"
       download: true
       newPage: false
@@ -97,17 +97,17 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://www.github.com/tatucode
-        - icon: fab fa-x-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+        - icon: fab fa-instagram
+          url: https://www.instagram.com/tatucode/
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/victortech01
+
 
   # Sobre
   about:
     enable: true
     title: "Sobre mim"
-    image: "/images/me.png"
+    image: "/images/hero.svg"
     content: |-
       Sou um estudante de Engenharia de Software com foco em Cibersegurança, voltado à análise de vulnerabilidades, pentest e proteção de sistemas.
       Desenvolvo minha base de forma prática por meio de projetos próprios, plataformas de CTF e formações especializadas, buscando evolução constante e aplicação real dos conceitos de segurança.
@@ -115,15 +115,15 @@ params:
       enable: true
       title: "Algumas tecnologias com as quais tenho trabalhado recentemente:"
       items:
+        - "Python"
+        - "SQL"
+        - "Linux"
+        - "Nmap"
         - "HTML"
         - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
 
   # Experiência
-  experience:
+  Experiências:
     enable: true
     # title: "Experiência"
     items:
@@ -145,9 +145,9 @@ params:
     items:
       - title: "Engenharia de Software"
         school:
-          name: "Universidade exemplo"
+          name: "Universidade Estácio de Sá"
           url: "https://example.org"
-        date: "2021 - presente"
+        date: "2026 - presente"
         GPA: "8.0 de 10.0"
         content: |-
           Atividades Extracurriculares
@@ -188,7 +188,7 @@ params:
     # title: "Contato"
     content: "Minha caixa de entrada está sempre aberta. Seja para uma pergunta ou apenas para dizer oi, farei o meu melhor para responder!"
     btnName: "Enviar e-mail"
-    btnLink: mailto:exemplo@email.com
+    btnLink: mailto:pedroalves.tech@outlook.com
     # formspree:
     #   enable: true
     #   formId: abcdefgh

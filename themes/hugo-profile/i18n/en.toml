@@ -3,10 +3,10 @@
 other = "About"
 
 [nav_experience]
-other = "Experience"
+other = "Experiências"
 
 [nav_education]
-other = "Education"
+other = "Educação"
 
 [nav_projects]
 other = "Projects"
@@ -24,8 +24,8 @@ other = "Search..."
 [about]
 other = "About Me"
 
-[experience]
-other = "Experience"
+[Experience]
+other = "Experiências"
 
 [education]
 other = "Education"

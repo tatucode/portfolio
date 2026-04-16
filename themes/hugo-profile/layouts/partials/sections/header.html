@@ -97,11 +97,11 @@
                     </li>
                     {{ end }}
 
-                    {{ if and (.Site.Params.experience.enable | default false) (not (.Site.Params.navbar.menus.disableExperience | default false)) }}
+                    {{ if and (.Site.Params.Experiências.enable | default false) (not (.Site.Params.navbar.menus.disableExperiências | default false)) }}
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.Home.RelPermalink }}#experience"
-                            aria-label="experience">
-                            {{ .Site.Params.experience.title | default (i18n "nav_experience") }}
+                        <a class="nav-link" href="{{ .Site.Home.RelPermalink }}#Experiências"
+                            aria-label="Experiências">
+                            {{ .Site.Params.Experiências.title | default (i18n "nav_experience") }}
                         </a>
                     </li>
                     {{ end }}

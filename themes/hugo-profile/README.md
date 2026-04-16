@@ -156,7 +156,7 @@ To add support for a new language (e.g., German):
    [nav_about]
    other = "Über uns"
    
-   [nav_experience]
+   [nav_Experiências]
    other = "Erfahrung"
    
    # Add all other translations...
