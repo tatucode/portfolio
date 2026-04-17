@@ -63,7 +63,7 @@ params:
   navbar:
     align: ms-auto
     brandName: "Pedro Victor"
-    disableSearch: false
+    disableSearch: true
     stickyNavBar:
       enable: true
       showOnScrollUp: true
@@ -127,7 +127,7 @@ params:
           - name: "Auxiliar de Suporte Técnico"
             date: "Jan 2020 - Dez 2022"
             content: "Auxiliei na resolução de problemas técnicos e suporte a usuários."
-          - name: "Assistente de configuração de camêras de segurança"
+          - name: "Assistente de configuração de câmeras de segurança"
             date: "Jan 2020 - Dez 2022"
             content: "Auxiliei na configuração de sistemas de câmeras de segurança."
 
