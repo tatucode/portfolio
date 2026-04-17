@@ -28,18 +28,18 @@ markup:
     renderer:
       unsafe: true
 
-menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Publicações do Blog
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Galeria
-      title: Galeria de imagens
-      url: /gallery
-      weight: 2
+# menus:
+#   main:
+#     - identifier: blog
+#       name: Blog
+#       title: Publicações do Blog
+#       url: /blogs
+#       weight: 1
+#     - identifier: gallery
+#       name: Galeria
+#       title: Galeria de imagens
+#       url: /gallery
+#       weight: 2 
 
 params:
   title: "Pedro Victor"
@@ -122,15 +122,14 @@ params:
     enable: true
     # title: "Experiência"
     items:
-      - company: "Facebook"
-        companyUrl: "https://example.com"
+      - company: "GA Informática"
         jobs:
-          - name: "Desenvolvedor de Software Sênior"
-            date: "Jan 2023 - presente"
-            content: "Trabalhando como desenvolvedor de software sênior."
-          - name: "Desenvolvedor de Software"
-            date: "Jan 2022 - Dez 2023"
-            content: "Trabalhei como desenvolvedor de software."
+          - name: "Auxiliar de Suporte Técnico"
+            date: "Jan 2020 - Dez 2022"
+            content: "Auxiliei na resolução de problemas técnicos e suporte a usuários."
+          - name: "Assistente de configuração de camêras de segurança"
+            date: "Jan 2020 - Dez 2022"
+            content: "Auxiliei na configuração de sistemas de câmeras de segurança."
 
   # Educação
   education:
@@ -141,17 +140,17 @@ params:
       - title: "Engenharia de Software"
         school:
           name: "Universidade Estácio de Sá"
-          url: "https://example.org"
+          url: "https://www.estacio.br"
         date: "2026 - presente"
-        GPA: "8.0 de 10.0"
         content: |-
-          Atividades Extracurriculares
-            - CTF (Capture The Flag)
+          Atividades Extracurriculares:
+            - Trilha do Hack The Box Academy
+            - Curso de Cibersegurança do Google
             - Projetos de segurança ofensiva e defensiva
 
   # Conquistas
   achievements:
-    enable: true
+    enable: false
     # title: "Conquistas"
     items:
       - title: CTF — exemplo
@@ -168,14 +167,14 @@ params:
         content: Um script em Python para analisar vulnerabilidades em arquivos ou URLs usando a API do VirusTotal.
         image: /images/projects/profile.png
         featured:
-          name: Demo
-          link: https://github.com/tatucode
+          name: Repositório
+          link: https://github.com/tatucode/shield.py
         badges:
           - "Python"
           - "VirusTotal API"
         links:
           - icon: fab fa-github
-            url: https://github.com/tatucode
+            url: https://github.com/tatucode/shield.py
 
   # Contato
   contact:
@@ -201,8 +200,7 @@ params:
     socialNetworks:
       github: https://github.com/tatucode
       linkedin: https://www.linkedin.com/in/victortech01
-      twitter: https://twitter.com
-      instagram: https://instagram.com
+      instagram: https://instagram.com/tatucode
 
   listPages:
     disableFeaturedImage: false
