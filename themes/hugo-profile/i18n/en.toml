@@ -1,6 +1,6 @@
 # Navigation
 [nav_about]
-other = "About"
+other = "Sobre mim"
 
 [nav_experience]
 other = "Experiências"
@@ -9,16 +9,16 @@ other = "Experiências"
 other = "Educação"
 
 [nav_projects]
-other = "Projects"
+other = "Projetos"
 
 [nav_achievements]
-other = "Achievements"
+other = "Conquistas"
 
 [nav_contact]
-other = "Contact"
+other = "Contato"
 
 [search_placeholder]
-other = "Search..."
+other = "Pesquisa..."
 
 # Sections
 [about]
@@ -28,27 +28,27 @@ other = "About Me"
 other = "Experiências"
 
 [education]
-other = "Education"
+other = "Educação"
 
 [projects]
-other = "Projects"
+other = "Projetos"
 
 [achievements]
-other = "Achievements"
+other = "Conquistas"
 
 [contact]
-other = "Get in Touch"
+other = "Entre em contato"
 
 # Contact form
 [contact_email_placeholder]
-other = "Enter your email"
+other = "Insira seu email"
 
 [contact_message_placeholder]
-other = "Enter your message"
+other = "Escreva a sua mensagem"
 
 # Footer
 [recent_posts]
-other = "Recent Posts"
+other = "Últimos Posts"
 
 # Common terms
 [read]

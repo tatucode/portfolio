@@ -87,12 +87,7 @@ params:
     bottomImage:
       enable: true
     # roundImage: true
-    button:
-      enable: true
-      name: "Resumo"
-      url: "#"
-      download: true
-      newPage: false
+    
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
