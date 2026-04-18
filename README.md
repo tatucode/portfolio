@@ -25,7 +25,7 @@ Mais do que um site, ele representa meu processo de aprendizado, aplicação de 
 
 ##  Acesse o projeto
 
-👉 luminous-dieffenbachia-9704da.netlify.app/
+https://www.luminous-dieffenbachia-9704da.netlify.app/
 
 ##  Deploy
 
